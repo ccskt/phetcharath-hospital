@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('citizen_id');
             $table->integer('age');
             $table->enum('gender',['male','female']);
+            $table->string('address');
             $table->timestamps();
         });
     }
